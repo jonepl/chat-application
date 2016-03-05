@@ -1,4 +1,5 @@
 #chat{
 	height: 500px;
 	border: solid;
+	overflow-y: scroll;
 }
