@@ -3,12 +3,3 @@
 	border: solid;
 	overflow-y: scroll;
 }
-
-#contentWrap{
-	display: none;
-}
-
-#chatWrap{
-	float: left;
-	border: 1px #000 solid;
-}
