@@ -15,13 +15,26 @@ Tutorial Link: https://www.youtube.com/watch?v=pNKNYLv2BpQ
 		<link rel="stylesheet" type="text/css" href="css/style.css"></link>
 	</head>
 	<body>
-		<div>
-			<div id="chat"></div>
-			<form id ="send-message">
-				<input size="35" id="message"/>
-				<input type="submit"/>
+		<!-- Form for Username-->
+		<div id="nickWrap">
+			<p>Enter a username</p>
+			<p id="nickError"></p>
+			<form id="setNick">
+				<input size="35" id="nickname">
+				<input type="submit">
 			</form>
+		</div>
 
+		<!-- Chat window -->
+		<div id="contentWrap">
+			<div id="chatWrap">
+				<div id="chat"></div>
+				<form id ="send-message">
+					<input size="35" id="message"/>
+					<input type="submit"/>
+				</form>
+			</div>
+			<div id="users"></div>
 		</div>
 
 		<!-- JQuery -->
